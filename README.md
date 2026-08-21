@@ -20,10 +20,10 @@ The following login scenarios are covered:
 
 **Steps:**
 
-1. Enter a valid email format.
-2. Enter an incorrect password.
-3. Click the `Log in` button.
-4. Verify the error message.
+1. Enter a valid email format into the Email address or mobile number field
+2. Enter an incorrect password into the Password field
+3. Click the Log in button
+4. Check the error message
 
 **Expected Result:**
 
@@ -31,20 +31,21 @@ The login will not be successful, and the system will prompt an error message:
 
 `The password you've entered is incorrect.`
 
-### T002 - Invalid Login with Unregistered Email
+### T002 - Empty Login
 
 **Steps:**
 
-1. Enter an unregistered email address.
-2. Enter a password.
+1. Leave the Email address or mobile number field empty.
+2. Leave the Password field empty.
 3. Click the `Log in` button.
-4. Verify the error message.
+4. Check the validation messages.
 
 **Expected Result:**
 
 The login will not be successful, and the system will prompt an error message:
 
 `The email address or mobile number you entered isn't connected to an account.`
+
 
 ### T003 - Forgotten Password
 
