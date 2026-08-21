@@ -13,7 +13,7 @@ The following login scenarios are covered:
 | Test Case ID | Scenario | Type | Priority |
 |---|---|---|---|
 | T001 | Invalid login with valid email format and wrong password | Negative | P1 |
-| T002 | Invalid login with an unregistered email address | Negative | P1 | 
+| T002 | Submit login form with empty email and password | Negative | P1 | 
 | T003 | Forgotten password navigation | Positive | P1 | 
 
 ### T001 - Invalid Login
