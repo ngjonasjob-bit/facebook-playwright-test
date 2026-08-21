@@ -83,17 +83,3 @@ The following videos demonstrate the successful execution of the test cases on t
 - `video/Forgotten password.webm`
 
 ---
-
-# Project Structure
-
-facebook-playwright/
-│
-├── tests/
-│   └── facebookTest/
-│       ├── FacebookLoginPage.ts
-│       └── facebook-login.spec.ts
-│
-├── playwright.config.ts
-├── package.json
-├── package-lock.json
-└── README.md
